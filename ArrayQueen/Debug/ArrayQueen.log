@@ -1,7 +1,7 @@
 ﻿  ArrayQueen.cpp
-c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(81): warning C4091: '': ignored on left of 'std::vector<my_table,std::allocator<_Ty>>' when no variable is declared
+c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(103): warning C4091: '': ignored on left of 'std::vector<table_stuff::my_table,std::allocator<_Ty>>' when no variable is declared
           with
           [
-              _Ty=my_table
+              _Ty=table_stuff::my_table
           ]
   ArrayQueen.vcxproj -> C:\Users\sleve\source\repos\ArrayQueen\ArrayQueen\Debug\ArrayQueen.exe
