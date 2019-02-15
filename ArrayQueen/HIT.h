@@ -1,58 +1,132 @@
 #pragma once
 #include "Header.h"
+#include <tuple>
 
 
-namespace table_stuff
-{
+#define TABLE  8
+#define QUEEN 81
+#define FREE 48
+#define HITTED 104
+
+	//x = oszlop, y = sor belfelso sarokbol origo.
 	//---------basic stuff-------------
-	void hit_left(struct my_table *table)
+
+namespace Table_stuff
+{
+
+	void hit_left(struct my_table &table, std::tuple<int, int> XY)
 	{
+		/*if ( std::get<0>(XY) < 0 || std::get<1>(XY) < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+		else
+		{
+			for (int i = std::get<0>(XY); i >= 0; --i)
+			{
+
+			}
+		}*/
 
 	};
-	void hit_right(struct my_table *table)
-	{
 
-	};
-	void hit_up(struct my_table *table)
+	/*void hit_right( my_table &table, std::pair<int, int> XY)
 	{
-
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
 	};
-	void hit_down(struct my_table *table)
+
+	void hit_up( my_table &table, std::pair<int, int> XY)
 	{
-
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
 	};
-	void hit_upleft(struct my_table *table) {};
-	void hit_upright(struct my_table *table) {};
-	void hit_dleft(struct my_table *table) {};
-	void hit_dright(struct my_table *table) {};
+	void hit_down( my_table &table, std::pair<int, int> XY)
+	{
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+	};
+	void hit_upleft( my_table &table, std::pair<int, int> XY)
+	{
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+	};
+	void hit_upright( my_table &table, std::pair<int, int> XY)
+	{
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+	};
+	void hit_dleft( my_table &table, std::pair<int, int> XY)
+	{
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+	};
+	void hit_dright( my_table &table, std::pair<int, int> XY)
+	{
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+	};
 	//-----------consolidated------------
-	void hitupd(struct my_table *table)
+	void hitupd( my_table &table, std::pair<int, int> XY)
 	{
-		hit_up(table);
-		hit_down(table);
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+
+		hit_up(table, XY);
+		hit_down(table, XY);
 	};
 
-	void hlr(struct my_table *table)
+	void hlr( my_table &table, std::pair<int,int> XY)
 	{
-		hit_left(table);
-		hit_right(table);
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+		hitleft(table, XY);
+		hit_right(table, XY);
 
 	};
 
-	void hitX(struct my_table *table)
+	void hitX( my_table &table, std::pair<int, int> XY)
 	{
-		hit_up(table);
-		hit_upright(table);
-		hit_dleft(table);
-		hit_dright(table);
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+
+		hit_up(table, XY);
+		hit_upright(table, XY);
+		hit_dleft(table, XY);
+		hit_dright(table, XY);
 	};
 	//---------final------------
-	void HIT(struct my_table *table)
+	void HIT( my_table &table, std::pair<int, int> XY)
 	{
-		hitupd(table);
-		hlr(table);
-		hitX(table);
+		if (XY.first < 0 || XY.second < 0)
+		{
+			throw "Bad_argument_exception";
+		}
+		hitupd(table, XY);
+		hlr(table, XY);
+		hitX(table, XY);
 	};
 
-	
+
+	*/
 }
