@@ -1,7 +1,6 @@
 #pragma once
 #include "iostream"
 #include "vector"
-#include "HIT.h"
 #include <utility>
 #include <tuple>
 
