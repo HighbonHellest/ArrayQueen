@@ -1,3 +1,2 @@
-﻿  stdafx.cpp
-  ArrayQueen.cpp
-c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(239): error C4700: uninitialized local variable 'possible_placements' used
+﻿  ArrayQueen.cpp
+  ArrayQueen.vcxproj -> C:\Users\sleve\source\repos\ArrayQueen\ArrayQueen\Debug\ArrayQueen.exe
