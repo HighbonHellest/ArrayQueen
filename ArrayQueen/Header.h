@@ -4,6 +4,8 @@
 #include <utility>
 #include <tuple>
 #include <cstdlib>
+#include <list> 
+#include <iterator> 
 
 
 	//defines
