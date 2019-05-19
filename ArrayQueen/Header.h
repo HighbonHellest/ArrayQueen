@@ -1,4 +1,5 @@
 #pragma once
+#include "Hit_funcitons.hpp"
 #include "iostream"
 #include "vector"
 #include <utility>
@@ -7,8 +8,8 @@
 #include <list> 
 #include <iterator> 
 
-
-	//defines
+	
+//defines
 #define TABLE  8
 #define QUEEN 81
 #define FREE 48
