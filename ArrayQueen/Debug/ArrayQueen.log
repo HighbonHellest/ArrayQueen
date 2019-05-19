@@ -1,22 +1,2 @@
 ﻿  ArrayQueen.cpp
-f:\repos\arrayqueen\hit_funcitons.hpp(4): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(7): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(14): error C2065: 'HITTED': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(22): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(26): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(33): error C2065: 'HITTED': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(40): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(42): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(49): error C2065: 'HITTED': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(54): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(63): error C2065: 'HITTED': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(67): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(69): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(76): error C2065: 'HITTED': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(80): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(82): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(89): error C2065: 'HITTED': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(95): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(104): error C2065: 'QUEEN': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(106): error C2065: 'TABLE': undeclared identifier
-f:\repos\arrayqueen\hit_funcitons.hpp(117): error C2065: 'TABLE': undeclared identifier
+  ArrayQueen.vcxproj -> F:\repos\ArrayQueen\Debug\ArrayQueen.exe

@@ -1,6 +1,7 @@
 #pragma once
 #include "Header.h"
 
+
 void hit_left(int table[TABLE][TABLE], std::pair<int, int> XY)
 {
 
