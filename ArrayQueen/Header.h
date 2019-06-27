@@ -40,6 +40,7 @@ namespace Table_stuff
 			}
 			std::cout << std::endl;
 		}
+		std::cout << std::endl;
 
 	};
 }
