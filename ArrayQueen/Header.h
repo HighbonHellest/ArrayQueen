@@ -10,7 +10,7 @@
 #include <array>
 #include <chrono>
 #include <thread>
-
+#include <fstream>
 //defines
 #define TABLE  8
 #define QUEEN 81
@@ -41,6 +41,39 @@ namespace Table_stuff
 			std::cout << std::endl;
 		}
 		std::cout << std::endl;
+
+	};
+	void out2(int A[TABLE][TABLE])
+	{
+		/*
+		 ofstream myfile;
+		 myfile.open ("example.txt");
+		 myfile << "Writing this to a file.\n";
+		 myfile.close();
+		*/
+		std::ofstream myfile;
+		myfile.open("kimenet.txt");
+
+		for (int i = 0; i < TABLE; ++i)
+		{
+			for (int j = 0; j < TABLE; ++j)
+			{
+				if (A[i][j] < 10)
+				{
+
+					myfile << "[ " << (char)A[i][j] << "]";
+				}
+				else
+				{
+
+					myfile << "[" << (char)A[i][j] << "]";
+				}
+
+			}
+			myfile << std::endl;
+		}
+		myfile << std::endl;
+		myfile.close();
 
 	};
 }
