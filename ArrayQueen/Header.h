@@ -17,4 +17,31 @@
 #define FREE 48
 #define HITTED 104
 
+namespace Table_stuff 
+{
+	void out(int A[TABLE][TABLE])
+	{
+
+		for (int i = 0; i < TABLE; ++i)
+		{
+			for (int j = 0; j < TABLE; ++j)
+			{
+				if (A[i][j] < 10)
+				{
+
+					std::cout << "[ " << (char)A[i][j] << "]";
+				}
+				else
+				{
+
+					std::cout << "[" << (char)A[i][j] << "]";
+				}
+
+			}
+			std::cout << std::endl;
+		}
+
+	};
+}
+
 #include "Hit_funcitons.hpp"
