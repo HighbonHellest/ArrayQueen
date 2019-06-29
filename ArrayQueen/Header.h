@@ -19,6 +19,9 @@
 
 namespace Table_stuff 
 {
+	
+
+
 	void out(int A[TABLE][TABLE])
 	{
 
@@ -52,7 +55,8 @@ namespace Table_stuff
 		 myfile.close();
 		*/
 		std::ofstream myfile;
-		myfile.open("kimenet.txt");
+		myfile.open("kimenet.txt", std::fstream::app);
+		
 
 		for (int i = 0; i < TABLE; ++i)
 		{
