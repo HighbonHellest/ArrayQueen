@@ -1,6 +1,7 @@
-﻿  stdafx.cpp
-  ArrayQueen.cpp
+﻿  ArrayQueen.cpp
   Generating code
-  All 237 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  6 of 236 functions ( 2.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   ArrayQueen.vcxproj -> C:\Users\sleve\source\repos\ArrayQueen\ArrayQueen\Release\ArrayQueen.exe
