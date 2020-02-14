@@ -13,6 +13,7 @@
 #include <fstream>
 //defines
 #define TABLE 8
+#define TABLE_M 0;
 #define QUEEN 81
 #define FREE 48
 #define HITTED 104
