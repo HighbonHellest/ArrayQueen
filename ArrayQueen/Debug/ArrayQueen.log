@@ -1,2 +1,3 @@
 ﻿  ArrayQueen.cpp
+c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(205): warning C4834: discarding return value of function with 'nodiscard' attribute
   ArrayQueen.vcxproj -> C:\Users\sleve\source\repos\ArrayQueen\ArrayQueen\Debug\ArrayQueen.exe

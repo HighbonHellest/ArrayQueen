@@ -12,7 +12,7 @@
 #include <thread>
 #include <fstream>
 //defines
-#define TABLE 4
+#define TABLE 8
 #define TABLE_M 0;
 #define QUEEN 81
 #define FREE 48
@@ -23,18 +23,13 @@ namespace Table_stuff
 	std::ofstream myfile;
 
 
-	void out(int A[TABLE][TABLE], int d = -1)
+	void out(int A[TABLE][TABLE], int a=0)
 	{
 
 		for (int i = 0; i < TABLE; ++i)
 		{
 			for (int j = 0; j < TABLE; ++j)
 			{
-				if (j == 0)
-				{
-					for(int dc=0; dc<d; ++dc)
-					std::cout << " ";
-				}
 				if (A[i][j] < 10)
 				{
 
@@ -52,9 +47,6 @@ namespace Table_stuff
 		std::cout << std::endl;
 
 	};
-	
-
-
 	void out2(int A[TABLE][TABLE])
 	{
 		/*
@@ -64,7 +56,7 @@ namespace Table_stuff
 		 myfile.close();
 		*/
 		
-		
+		myfile.open("kimenet.txt", std::fstream::app);
 		
 
 		for (int i = 0; i < TABLE; ++i)
@@ -86,7 +78,7 @@ namespace Table_stuff
 			myfile << std::endl;
 		}
 		myfile << std::endl;
-		
+		myfile.close();
 
 	};
 }
