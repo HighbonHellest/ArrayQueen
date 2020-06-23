@@ -1,4 +1,12 @@
 #pragma once
+//defines
+#define TABLE 4
+#define TABLE_M 0;
+#define QUEEN 81
+#define FREE 48
+#define HITTED 104
+#define ROOK 122
+#define BISHOP 102
 
 #include "iostream"
 #include "vector"
@@ -11,17 +19,16 @@
 #include <chrono>
 #include <thread>
 #include <fstream>
-//defines
-#define TABLE 8
-#define TABLE_M 0;
-#define QUEEN 81
-#define FREE 48
-#define HITTED 104
+// non std
+
+
+
+
+
 
 namespace Table_stuff 
 {
 	std::ofstream myfile;
-
 
 	void out(int A[TABLE][TABLE], int a=0)
 	{
