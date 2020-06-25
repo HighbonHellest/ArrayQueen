@@ -32,15 +32,17 @@ namespace Table_stuff
 	std::ofstream myfile;
 
 	
+	
 
 	void out(int A[TABLE][TABLE], int a=0)
 	{
-		
-
+	
 		for (int i = 0; i < TABLE; ++i)
 		{
 			for (int j = 0; j < TABLE; ++j)
 			{
+				
+
 				if (A[i][j] < 10)
 				{
 
@@ -92,6 +94,7 @@ namespace Table_stuff
 		myfile.close();
 
 	};
+	
 }
 
 #include "Hit_funcitons.hpp"
