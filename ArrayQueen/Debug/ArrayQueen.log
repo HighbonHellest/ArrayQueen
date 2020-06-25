@@ -1,3 +1,4 @@
 ﻿  ArrayQueen.cpp
-c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(194): warning C4834: discarding return value of function with 'nodiscard' attribute
+c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(63): warning C4091: 'typedef ': ignored on left of 'Table_stuff::my_table' when no variable is declared
+c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(208): warning C4834: discarding return value of function with 'nodiscard' attribute
   ArrayQueen.vcxproj -> C:\Users\sleve\source\repos\ArrayQueen\ArrayQueen\Debug\ArrayQueen.exe
