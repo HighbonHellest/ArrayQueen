@@ -1,3 +1,15 @@
-﻿  ArrayQueen.cpp
-c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(175): warning C4834: discarding return value of function with 'nodiscard' attribute
-  ArrayQueen.vcxproj -> C:\Users\sleve\source\repos\ArrayQueen\ArrayQueen\Debug\ArrayQueen.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'c:\users\sleve\source\repos\arrayqueen\arrayqueen\debug\arrayqueen.pch' because it is being used by another process.
+  stdafx.cpp
+  ArrayQueen.cpp
+c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(149): error C2664: 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> std::list<_Ty,std::allocator<_Ty>>::insert(std::_List_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,unsigned int,const _Ty &)': cannot convert argument 2 from 'int [][4]' to '_Ty &&'
+          with
+          [
+              _Ty=Table_stuff::my_table
+          ]
+  c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(149): note: Reason: cannot convert from 'int [][4]' to '_Ty'
+          with
+          [
+              _Ty=Table_stuff::my_table
+          ]
+  c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(149): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\sleve\source\repos\arrayqueen\arrayqueen\arrayqueen.cpp(183): warning C4834: discarding return value of function with 'nodiscard' attribute

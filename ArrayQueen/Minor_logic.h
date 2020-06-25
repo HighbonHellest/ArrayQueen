@@ -33,8 +33,14 @@ void rotate(int table[TABLE][TABLE]) //https://www.youtube.com/watch?v=Jtu6dJ0Cb
 
 
 //flips solution horizontally
-void HMR(int table[TABLE][TABLE])
+void FML(int table[TABLE][TABLE]) //flip matrix horizontally and not the other FML meaning
 {
+	std::cout << "table before" << std::endl;
+	Table_stuff::out(table);
+	for (int i = 0; i < TABLE / 2; ++i)
+	{
+
+	}
 
 }
 

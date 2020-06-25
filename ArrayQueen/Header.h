@@ -19,6 +19,7 @@
 #include <chrono>
 #include <thread>
 #include <fstream>
+
 // non std
 
 
@@ -30,8 +31,11 @@ namespace Table_stuff
 {
 	std::ofstream myfile;
 
+	
+
 	void out(int A[TABLE][TABLE], int a=0)
 	{
+		
 
 		for (int i = 0; i < TABLE; ++i)
 		{
