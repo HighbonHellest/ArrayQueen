@@ -2,6 +2,32 @@
 bishop:
 	 list: 15k+ találat ~407ms
 	 set:  64   találat 1122ms
-8x8 bishop:
-	list: 2 min (still running) over 2gigs of ram
-	set: 45 mins of running less then 2 megs of ram
+rook:
+set: 24, 7 unique, 72ms runtime negligable memory
+
+
+5x5:
+	bishop:
+		set: 660
+		unique: 100 runtime: 253607 ms
+	rook:
+		set: 120, 23 unique: 1323.63 ms runtime 994kb memory
+6x6
+	rook:
+		set:720, 115 unique 54392.6 ms runtime <1MB memory
+7x7
+	rook:
+		set:
+		runtime: 3.18502e+06ms ~ 53 perc
+		~3,5 mega ram
+		5040 találat
+		694 egyedi
+		
+
+
+8x8
+	bishop:
+		list: 2 min (still running) over 2gigs of ram
+		set: 45 mins of running less then 2 megs of ram
+	rook:
+		set:

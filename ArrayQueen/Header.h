@@ -1,6 +1,6 @@
 #pragma once
 //defines
-#define TABLE 4
+#define TABLE 7
 #define TABLE_M 0;
 #define QUEEN 81
 #define FREE 48
