@@ -1,12 +1,13 @@
 #pragma once
 //defines
-#define TABLE 4
+#define TABLE 3
 #define TABLE_M 0;
 #define QUEEN 81
 #define FREE 48
 #define HITTED 104
 #define ROOK 122
 #define BISHOP 102
+#define ednl endl
 
 #include "iostream"
 #include "vector"
@@ -66,14 +67,9 @@ namespace Table_stuff
 	};
 	void out2(int A[TABLE][TABLE])
 	{
-		/*
-		 ofstream myfile;
-		 myfile.open ("example.txt");
-		 myfile << "Writing this to a file.\n";
-		 myfile.close();
-		*/
 		
-		myfile.open("kimenet.txt", std::fstream::app);
+		
+		myfile.open("hashelt.txt", std::fstream::app);
 		
 
 		for (int i = 0; i < TABLE; ++i)

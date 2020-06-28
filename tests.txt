@@ -1,0 +1,7 @@
+4x4:
+bishop:
+	 list: 15k+ találat ~407ms
+	 set:  64   találat 1122ms
+8x8 bishop:
+	list: 2 min (still running) over 2gigs of ram
+	set: 45 mins of running less then 2 megs of ram
